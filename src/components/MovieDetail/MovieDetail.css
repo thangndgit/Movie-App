@@ -1,0 +1,32 @@
+.movie-detail {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  color: #fff;
+}
+
+.movie-detail > * {
+  width: 50%;
+}
+
+.movie-detail__title {
+  font-size: 1.65rem;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.movie-detail__date,
+.movie-detail__vote {
+  font-weight: bold;
+}
+
+.movie-detail__overview {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+.movie-detail__media > * {
+  width: 100%;
+}

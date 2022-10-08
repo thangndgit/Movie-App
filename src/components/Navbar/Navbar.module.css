@@ -1,0 +1,33 @@
+.navbar {
+  padding: 0.75rem;
+  background-color: transparent;
+  transition: background-color 500ms;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar.dark {
+  background-color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  color: #f00;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav__search {
+  width: 1.5rem;
+}
+
+.nav__search svg {
+  margin-top: 0.25rem;
+}

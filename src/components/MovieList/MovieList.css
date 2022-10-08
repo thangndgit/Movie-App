@@ -1,0 +1,34 @@
+.movie-list {
+  color: #fff;
+  padding: 0.75rem;
+  margin-bottom: 2.25rem;
+}
+
+.movie-list__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.movie-list__items {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+}
+
+.movie-list__item {
+  height: auto;
+}
+
+.movie-list__item img:hover {
+  transition: 0.25s;
+  transform: scale(1.125);
+}
+
+.movie-list__item img.vertical {
+  width: 133px;
+}
+
+.movie-list__item img.horizontal {
+  width: 195px;
+}

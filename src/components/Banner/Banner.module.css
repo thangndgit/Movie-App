@@ -1,0 +1,39 @@
+.banner {
+  color: #fff;
+  background-color: #666;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  padding: 1rem;
+  min-height: 22.5rem;
+  overflow: auto;
+}
+
+.banner__title {
+  margin-top: 7.5rem;
+  font-size: 2.25rem;
+  width: 30%;
+}
+
+.banner__actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.banner__actions button {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.625);
+  border: 1px solid #333;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  padding: 0.5rem 1.75rem;
+}
+
+.banner__overview {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  width: 30%;
+}
